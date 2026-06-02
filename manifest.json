@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Benford's Law Web Analyzer",
+  "version": "1.0",
+  "description": "Analyzes the distribution of leading digits on the current webpage and compares it to Benford's Law.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "benford.html"
+  }
+}
